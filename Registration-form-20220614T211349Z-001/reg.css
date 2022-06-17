@@ -1,0 +1,161 @@
+        main {
+            display: flex;
+            /* padding: 20%; */
+        }
+        
+        body {
+            background-size: cover;
+            /* background-attachment: scroll; */
+            font-family: poppins;
+        }
+        
+        @media screen and (min-width:375px) {
+            main {
+                padding-left: 20%;
+                background: hsl(0, 100%, 74%);
+                background-image: url(bg1.png);
+                height: 675px;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .A,
+            .B {
+                color: rgb(255, 255, 255);
+                width: 80%;
+                font-weight: 400px;
+            }
+            #top {
+                background: hsl(248, 32%, 49%);
+                color: white;
+                text-align: center;
+                font: 12px;
+                border-radius: 3px;
+                width: 97%;
+            }
+            form {
+                width: 90%;
+                background: white;
+                padding: 2% 0 0 8%;
+                border-radius: 3px;
+                height: 80%;
+                color: hsl(248, 88%, 20%);
+            }
+            input {
+                width: 80%;
+                margin: 2%;
+                background: hsl(246, 88%, 16%);
+                padding: 4%;
+                border: none;
+                border-radius: 3%;
+                color: white;
+            }
+            input:hover,
+            input:focus {
+                background: none;
+                border: 2px solid white;
+                color: hsl(248, 88%, 20%);
+                border: 2px solid hsl(248, 75%, 27%);
+            }
+            button {
+                width: 88%;
+                margin-left: 2%;
+                margin-top: 2%;
+                background: hsl(154, 59%, 51%);
+                padding: 4%;
+                border: none;
+                border-radius: 3%;
+            }
+            button:hover {
+                background: none;
+                border: 2px solid hsl(248, 75%, 27%);
+                color: white;
+            }
+            #bottom {
+                color: hsl(248, 32%, 49%);
+                font-size: 10px;
+                margin-right: 3.5%;
+                text-align: center;
+            }
+        }
+        
+        @media screen and (min-width:800px) {
+            main {
+                padding-left: 20%;
+                background: hsl(0, 100%, 74%);
+                background-image: url(bg1.png);
+                height: 675px;
+                flex-direction: row;
+                justify-content: center;
+                max-width: 1440px;
+            }
+            .A {
+                padding-top: 30%
+            }
+            .B {
+                padding-top: 25%
+            }
+            .A h2 {
+                height: 30%;
+                width: 45%;
+            }
+            .A p {
+                height: 30%;
+                width: 85%;
+            }
+            #top {
+                background: hsl(248, 32%, 49%);
+                color: white;
+                text-align: center;
+                font-size: 0.8em;
+                border-radius: 3px;
+                width: 66%;
+                height: 10%;
+                padding: 3px;
+            }
+            form {
+                width: 60%;
+                background: white;
+                padding: 2% 0 0 8%;
+                border-radius: 3px;
+                height: 72%;
+                color: hsl(248, 32%, 49%);
+            }
+            input {
+                width: 70%;
+                margin: 2%;
+                background: hsl(246, 88%, 16%);
+                padding: 4%;
+                border: none;
+                color: white;
+                border-radius: 3%;
+            }
+            input:hover,
+            input:focus {
+                background: none;
+                border: 2px solid white;
+                color: hsl(248, 88%, 20%);
+                border: 2px solid hsl(248, 75%, 27%);
+            }
+            button {
+                width: 78%;
+                color: hsl(248, 32%, 49%);
+                margin-left: 2%;
+                margin-top: 2%;
+                background: hsl(154, 59%, 51%);
+                padding: 4%;
+                border: none;
+                border-radius: 3%;
+            }
+            button:hover {
+                background: none;
+                border: 2px solid hsl(248, 75%, 27%);
+                color: hsl(248, 32%, 49%);
+            }
+            #bottom {
+                color: hsl(248, 32%, 49%);
+                font-size: 10px;
+                margin-right: 12.5%;
+                text-align: center;
+                width: 80%;
+            }
+        }
